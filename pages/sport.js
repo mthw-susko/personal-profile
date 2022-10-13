@@ -18,7 +18,7 @@ const Sport = () => {
               Trampoline
             </Heading>
             <Paragraph pb={"1em"}>
-              Competitive Trampoline is a sub-dicipline of the main Gymnastics stream. Though it's less well known as its other
+              Competitive Trampoline is a sub-discipline of the main Gymnastics stream. Though it's less well known as its other
               counter parts, compeitive trampoline is a widely practiced sport around the world and is also an event in the summer Olympics.
               I have been doing competitive trampoline for over 8 years now and have competed on both provincial and national levels (currently L7).
             </Paragraph>

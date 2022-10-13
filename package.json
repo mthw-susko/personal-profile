@@ -1,5 +1,5 @@
 {
-  "name": "personal profile",
+  "name": "personal-profile",
   "version": "1.0.0",
   "description": "Matthew's Website",
   "scripts": {
@@ -17,7 +17,7 @@
     "@chakra-ui/react": "^2.2.8",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
-    "@fontsource/castoro": "^4.5.8",
+    "@fontsource/castoro": "^4.5.9",
     "@mui/lab": "^5.0.0-alpha.103",
     "@mui/material": "^5.10.9",
     "fontsource": "file:../../../castoro",
