@@ -1,0 +1,38 @@
+{
+  "name": "personal profile",
+  "version": "1.0.0",
+  "description": "Matthew's Website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Takuya Matsuyama",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.8",
+    "@chakra-ui/react": "^2.2.8",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@fontsource/castoro": "^4.5.8",
+    "@mui/lab": "^5.0.0-alpha.103",
+    "@mui/material": "^5.10.9",
+    "fontsource": "file:../../../castoro",
+    "framer-motion": "^7.2.0",
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-vertical-timeline-component": "^3.5.2",
+    "three": "^0.143.0"
+  },
+  "devDependencies": {
+    "@material-ui/core": "^4.12.4",
+    "eslint": "^8.22.0",
+    "eslint-config-next": "^12.2.5",
+    "prettier": "^2.7.1"
+  }
+}
