@@ -19,7 +19,7 @@ const Footer = () => {
             <h1> Contacts and Socials </h1>
           </GridItem>
           <GridItem bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' >
-            <Link href='https://www.instagram.com/matthew_susko/' isExternal>
+            <Link href='https://github.com/mthw-susko' isExternal>
               <h1 align="center">Github
                 <Icon ml={1} as={AiFillGithub} />
               </h1>
