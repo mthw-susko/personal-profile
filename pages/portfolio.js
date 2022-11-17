@@ -9,7 +9,7 @@ const Works = () => {
   return (
     <Layout title={'Works'}>
       <Box>
-        <Container>
+        <Container maxW='container.xl'>
           <Section delay={0.1}>
             <Heading>
               Projects, Work Experience, and Education
@@ -20,7 +20,7 @@ const Works = () => {
           </Section>
         </Container>
         <Timeline />
-        <Container>
+        <Container maxW='container.xl'>
           <Section delay={0.2}>
             <Heading as='h3' variant={"section-title"}>
               Projects

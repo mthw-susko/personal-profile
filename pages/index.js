@@ -4,10 +4,20 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 
+import { useEffect } from 'react'
+
 const Page = () => {
+
+  useEffect(() => {
+
+    // Change zoom level on mount
+    document.body.style.zoom = "150%";
+
+  });
+
   return (
     <Layout>
-      <Container>
+      <Container maxW='container.xl'>
         <Box borderRadius="lg" bg={useColorModeValue('orange.300', 'blackAlpha.600')} p={3} mb={6} align="center">
           Hello, my name is Matthew and I am an aspiring full-stack developer based in Canada
         </Box>

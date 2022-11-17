@@ -7,7 +7,7 @@ const Sport = () => {
   return (
     <Layout title={'Sport'}>
       <Box>
-        <Container>
+        <Container maxW='container.xl'>
           <Section delay={0.1}>
             <Heading>
               Compeitive Trampoline and Double-Mini Trampoline

@@ -13,7 +13,7 @@ import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 const Footer = () => {
   return (
     <Box pb={4} pt={2} bg={useColorModeValue('#ffffff40', '#20202380')}>
-      <Container >
+      <Container maxW='container.md'>
         <Grid templateColumns='repeat(3, 1fr)' gap={3}>
           <GridItem colSpan={3} bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' >
             <h1> Contacts and Socials </h1>
