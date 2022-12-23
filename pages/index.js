@@ -4,17 +4,7 @@ import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
 
-import { useEffect } from 'react'
-
 const Page = () => {
-
-  useEffect(() => {
-
-    // Change zoom level on mount
-    document.body.style.zoom = "150%";
-
-  });
-
   return (
     <Layout>
       <Container maxW='container.xl'>

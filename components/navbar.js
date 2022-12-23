@@ -13,9 +13,7 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
-  useColorModePreference
 } from '@chakra-ui/react'
-import { resolveHref } from 'next/dist/shared/lib/router/router'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
 import Socials from './socials'
@@ -59,25 +57,25 @@ const Navbar = props => {
         <Box flex={1} align="right">
           <Socials />
           <ThemeToggleButton />
-          <Box ml={2} display={{ base: 'inline-block', md: 'none' }}>
+          <Box ml={2} display={{ base: 'inline-block', md: 'none' }} >
             <Menu>
               <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
-              <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
+              <MenuList bg={useColorModeValue('white', '#202023')}>
+                <NextLink href="/" passHref >
+                  <MenuItem bg={useColorModeValue('white', '#202023')} as={Link} >About</MenuItem>
                 </NextLink>
                 <NextLink href="/portfolio" passHref>
-                  <MenuItem as={Link}>Portfolio</MenuItem>
+                  <MenuItem bg={useColorModeValue('white', '#202023')} as={Link}>Portfolio</MenuItem>
                 </NextLink>
                 <NextLink href="/sport" passHref>
-                  <MenuItem as={Link}>Sport</MenuItem>
+                  <MenuItem bg={useColorModeValue('white', '#202023')} as={Link}>Sport</MenuItem>
                 </NextLink>
-                <MenuItem mb='1px' m='-1px' bgColor={useColorModeValue('white', '#2d3748')}>
+                <MenuItem mb='1px' m='-1px' bgColor={useColorModeValue('white', '#202023')}>
                   <Link href="https://www.instagram.com/matthew_susko/" isExternal color={useColorModeValue('black', 'white')} >
                     Instagram <ExternalLinkIcon mx={'2px'} />
                   </Link>
                 </MenuItem>
-                <MenuItem m='-1px' bgColor={useColorModeValue('white', '#2d3748')}>
+                <MenuItem m='-1px' bgColor={useColorModeValue('white', '#202023')}>
                   <Link href="https://www.linkedin.com/in/matthew-susko-132719234/" isExternal color={useColorModeValue('black', 'white')}>
                     Linkedin <ExternalLinkIcon mx={'2px'} />
                   </Link>

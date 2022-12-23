@@ -14,22 +14,6 @@ const Timeline = () => {
       <VerticalTimelineElement
         contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
         contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
-        date="Sept 2021 - Present"
-        iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
-        icon={<MdWork />}
-      >
-        <Heading as='h3' variant='section-title' lineHeight={7}>
-          Bachelor of Computing (Hons.)
-        </Heading>
-        <Heading as='h4' variant='section-sub-title'>Queen's University</Heading>
-        <UnorderedList>
-          <ListItem>Specializing in Software Design</ListItem>
-          <ListItem>Dean's Honours List 2021-2022</ListItem>
-        </UnorderedList>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
-        contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
         date="May 2022 - Sept 2022"
         iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
         icon={<MdWork />}
@@ -43,6 +27,22 @@ const Timeline = () => {
           <ListItem>Made bug fixes and other back-end improvements</ListItem>
           <ListItem>Made UI improvements and changes</ListItem>
           <ListItem>Performed QA for new PRs and releases</ListItem>
+        </UnorderedList>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
+        contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
+        date="Sept 2021 - Present"
+        iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
+        icon={<MdWork />}
+      >
+        <Heading as='h3' variant='section-title' lineHeight={7}>
+          Bachelor of Computing (Hons.)
+        </Heading>
+        <Heading as='h4' variant='section-sub-title'>Queen's University</Heading>
+        <UnorderedList>
+          <ListItem>Specializing in Software Design</ListItem>
+          <ListItem>Dean's Honours List 2021-2022</ListItem>
         </UnorderedList>
       </VerticalTimelineElement>
       <VerticalTimelineElement
