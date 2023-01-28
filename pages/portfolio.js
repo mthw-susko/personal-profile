@@ -25,6 +25,15 @@ const Works = () => {
             <Heading as='h3' variant={"section-title"}>
               Projects
             </Heading>
+            <Heading as='h4' variant='section-sub-title'>CourseFind - 2023</Heading>
+            <Paragraph pb={"1em"}>
+              CourseFind is an application I developed to make it easier for Queen's students to find information on the classes they are going
+              to take for the semester. CourseFind shows information like average gpa, average enrolment, description of the class, professor, and
+              rate my prof score for the professor for all 2200 classes avaiable at Queen's University. The application was developed in React and Nextjs
+              and the API created to fetch information for courses was developed using Flask, SQLite, and Selenium. All code can be found on my Github with
+              more documentation.
+            </Paragraph>
+            <Image src={"/images/course_find_photo.png"} alt="course-find-pic" />
             <Heading as='h4' variant='section-sub-title'>QSS (Queen's Startup Summit) - 2022</Heading>
             <Paragraph pb={"1em"}>
               I participated in the 2022 Queen's Startup Summit where me and a team of 3 created a buisness idea to help reduce food waste in 24 hours. We came up with the idea to create an

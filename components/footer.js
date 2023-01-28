@@ -14,7 +14,7 @@ import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <Box pb={4} pt={2} bg={useColorModeValue('#ffffff40', '#20202380')}>
+    <Box pb={4} pt={2} bg={useColorModeValue('#f0e7db', '#20202380')}>
       <Container maxW='container.md'>
         <Grid templateColumns='repeat(1, 1fr)' gap={3}>
           <GridItem bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' >

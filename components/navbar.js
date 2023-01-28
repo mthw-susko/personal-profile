@@ -36,7 +36,7 @@ const Navbar = props => {
   const { path } = props
 
   return (
-    < Box position="fixed" as="nav" w="100%" bg={useColorModeValue('#ffffff40', '#20202380')} style={{ backdropFiler: 'blur(10px)' }
+    < Box position="fixed" as="nav" w="100%" bg={useColorModeValue('#ffffff40', '#20202380')} style={{ backdropFilter: 'blur(10px)' }
     } zIndex={3} {...props}>
       <Container display='flex' p={2} maxW='container.md' wrap="wrap" align="center" justify='space-between'>
         {/* name in top left of navbar */}

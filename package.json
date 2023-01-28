@@ -10,11 +10,12 @@
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Takuya Matsuyama",
+  "author": "Matthew Susko",
   "license": "MIT",
   "dependencies": {
-    "@chakra-ui/icons": "^2.0.8",
-    "@chakra-ui/react": "^2.2.8",
+    "@chakra-ui/icons": "2.0.13",
+    "@chakra-ui/react": "2.4.2",
+    "@chakra-ui/theme-tools": "2.0.14",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@fontsource/castoro": "^4.5.9",
@@ -26,14 +27,28 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
+    "react-scripts": "^5.0.1", 
     "react-vertical-timeline-component": "^3.5.2",
     "three": "^0.143.0"
   },
   "devDependencies": {
     "@material-ui/core": "^4.12.4",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
     "eslint": "^8.22.0",
     "eslint-config-next": "^12.2.5",
     "prettier": "^2.7.1"
-  }
+  },
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthw-susko/personal-profile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mthw-susko/personal-profile/issues"
+  },
+  "homepage": "https://github.com/mthw-susko/personal-profile#readme"
 }
-

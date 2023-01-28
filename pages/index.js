@@ -37,8 +37,8 @@ const Page = () => {
           </Heading>
           <Paragraph>
             When Matthew isn't in the gym or at school he enjoys planning and designing
-            software that solve real-world problems. Matthew has work experience as a QA Engineer for
-            <Link href='https://www.metronomeunited.com/metronome-growth-systems-about' isExternal> Metronomics </Link>
+            software that solve real-world problems. Matthew has work experience as a QA Engineer for{' '}
+            <Link href='https://www.metronomeunited.com/metronome-growth-systems-about' isExternal>Metronomics</Link>{' '}
             (Metronome Growth Systems) for 2 years programming using Scala
             and the Micro Test framework. In his free time, Matthew likes to create web-applications
             and different types of tools that help make every-day life easier.
