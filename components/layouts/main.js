@@ -4,6 +4,7 @@ import Footer from '../footer'
 import { Box, Container } from '@chakra-ui/react'
 
 const Main = ({ children, router }) => {
+
   return (
     <Box as="main" pb={0}>
       <Head>

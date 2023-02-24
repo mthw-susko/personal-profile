@@ -1,6 +1,6 @@
 {
   "name": "personal-profile",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Matthew's Website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
@@ -21,13 +21,14 @@
     "@fontsource/castoro": "^4.5.9",
     "@mui/lab": "^5.0.0-alpha.103",
     "@mui/material": "^5.10.9",
-    "fontsource": "file:../../../castoro",
+    "@react-three/drei": "^9.56.26",
+    "@react-three/fiber": "^8.11.5",
     "framer-motion": "^4.1.17",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
-    "react-scripts": "^5.0.1", 
+    "react-scripts": "^5.0.1",
     "react-vertical-timeline-component": "^3.5.2",
     "three": "^0.143.0"
   },

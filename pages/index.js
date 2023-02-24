@@ -3,10 +3,25 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import Layout from '../components/layouts/article'
 import { BioSection, BioYear } from '../components/bio'
+import { OrbitControls } from "@react-three/drei";
+import { Canvas } from '@react-three/fiber'
+import Laptop from '../components/laptop'
+import { Suspense } from 'react'
 
 const Page = () => {
+
+
   return (
     <Layout>
+      <Canvas style={{ height: '20em', paddingBottom: '-5em' }} orthographic='true' camera={{ position: [1, 1, 1], fov: 0.4, zoom: 90 }} >
+        <OrbitControls enableZoom={false} />
+        <ambientLight position={[10, 15, -10]} intensity={0.5} />
+        <directionalLight position={[5, 5, -5]} intensity={1} />
+        <Suspense fallback={null}>
+          <Laptop />
+        </Suspense>
+      </Canvas>
+
       <Container maxW='container.xl'>
         <Box borderRadius="lg" bg={useColorModeValue('orange.300', 'blackAlpha.600')} p={3} mb={6} align="center">
           Hello, my name is Matthew and I am an aspiring full-stack developer based in Canada
