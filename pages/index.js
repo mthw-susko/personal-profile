@@ -51,12 +51,11 @@ const Page = () => {
             Work
           </Heading>
           <Paragraph>
-            When Matthew isn't in the gym or at school he enjoys planning and designing
-            software that solve real-world problems. Matthew has work experience as a QA Engineer for{' '}
-            <Link href='https://www.metronomeunited.com/metronome-growth-systems-about' isExternal>Metronomics</Link>{' '}
-            (Metronome Growth Systems) for 2 years programming using Scala
-            and the Micro Test framework. In his free time, Matthew likes to create web-applications
-            and different types of tools that help make every-day life easier.
+          When Matthew isn't in the gym or at school he enjoys planning and designing
+            software that solve real-world problems. Matthew has experience using many different web technologies
+            such as HTML, CSS, Javascript, React, React Native, Angualar JS, Angualar 2, NgRx, Rxjs, Nextjs, and Elm. He
+            also has additional experience working with other languages such as Python, C, Java, Haskell, and Swift. Matthew also 
+            enjoys designing using tools such as the Adobe Suite and Figma.
           </Paragraph>
         </Section>
         <Section delay={0.2}>
@@ -82,16 +81,22 @@ const Page = () => {
             Graduated highschool from Whistler Secondary School and
           </BioSection>
           <BioSection>
-            <BioYear >
-              2021 - Present
-            </BioYear>
-            Enrolled in Queen's University for a Bachelor's Degree in Computer Science and a specialization in Software Design
-          </BioSection>
-          <BioSection>
             <BioYear>
               2022
             </BioYear>
             Worked as QA Engineer at Metronomics
+          </BioSection>
+          <BioSection>
+            <BioYear>
+              2023
+            </BioYear>
+            UX/UI Front-End Developer at Metronomics
+          </BioSection>
+          <BioSection>
+            <BioYear >
+              Present
+            </BioYear>
+            Enrolled in Queen's University for a Bachelor's Degree in Computer Science and a specialization in Software Design
           </BioSection>
         </Section>
         <Section delay={0.3} >
@@ -99,9 +104,9 @@ const Page = () => {
             School
           </Heading>
           <Paragraph>
-            Matthew is currently studying at Queen's Univeristy for a Bachelor's Degree in Computer Science
-            and a specialization in Software Design. At the moment, he is in his second year of studies
-            and living in Kingston, ON. When he graduates he hopes to persue a career in full-stack software developement
+          Matthew is currently studying at Queen's Univeristy for a Bachelor's Degree in Computer Science
+            and a specialization in Software Design. At the moment, he is in his third year of studies
+            and living in Kingston, ON. When he graduates he hopes to persue a career in front-end development and UX/UI design. 
           </Paragraph>
         </Section>
       </Container>

@@ -25,6 +25,37 @@ const Works = () => {
             <Heading as='h3' variant={"section-title"}>
               Projects
             </Heading>
+            <Heading as='h4' variant='section-sub-title'>Metronome Growth Systems UI Redesign - 2023</Heading>
+            <Paragraph pb={"1em"}>
+            During my internship at Metronome Growth Systems (MGS), I collaborated closely with a dedicated team to develop innovative designs for 
+            their business management software. Together, we formulated fresh ideas and charted a new course to enhance both the software and its design. All
+            the new designs were created in and prototyped in Figma.
+            </Paragraph>
+            <Grid templateColumns='repeat(1, 2fr)' gap={3}>
+              <GridItem>
+                <Image src={"/images/Quarterly_Priorities_Page.png"} alt="social-pic" />
+              </GridItem>
+              <GridItem>
+                <Image src={"/images/Annual_Priorities_Page.png"} alt="social-pic" />
+              </GridItem>
+            </Grid>
+            <Heading as='h4' variant='section-sub-title'>Memento - 2023</Heading>
+            <Paragraph pb={"1em"}>
+              Memento is a mobile IOS application integrating into the IOS Photos app to help display selected photos in a more engaging and interactive way. Memento
+              aims to help you remember and re-live exciting and important moments you've captured through photos by keeping track of the times and dates of your photos
+              an displying them in an pleasing scrollable calendar!
+            </Paragraph>
+            <Grid templateColumns='repeat(3, 2fr)' gap={3}>
+              <GridItem>
+                <Image src={"/images/memento_main.png"} alt="social-pic" />
+              </GridItem>
+              <GridItem>
+                <Image src={"/images/memento_action_sheet.png"} alt="social-pic" />
+              </GridItem>
+              <GridItem>
+                <Image src={"/images/memento_gallery.png"} alt="social-pic" />
+              </GridItem>
+            </Grid>
             <Heading as='h4' variant='section-sub-title'>CourseFind - 2023</Heading>
             <Paragraph pb={"1em"}>
               CourseFind is an application I developed to make it easier for Queen's students to find information on the classes they are going

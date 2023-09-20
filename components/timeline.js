@@ -14,7 +14,42 @@ const Timeline = () => {
       <VerticalTimelineElement
         contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
         contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
-        date="May 2022 - Sept 2022"
+        date="Sept 2021 - Present"
+        iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
+        icon={<MdWork />}
+      >
+        <Heading as='h3' variant='section-title' lineHeight={7}>
+          Bachelor of Computer Science (BCS)
+        </Heading>
+        <Heading as='h4' variant='section-sub-title'>Queen's University</Heading>
+        <UnorderedList>
+          <ListItem>Specializing in Software Design</ListItem>
+          <ListItem>Dean's Honours List 2021-2022</ListItem>
+          <ListItem>Made UI improvements and changes</ListItem>
+          <ListItem>Performed QA for new PRs and releases</ListItem>
+        </UnorderedList>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
+        contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
+        date="May 2023 - Sept 2023"
+        iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
+        icon={<MdWork />}
+      >
+        <Heading as='h3' variant='section-title'>
+          UX/UI Front-End Developer
+        </Heading>
+        <Heading as='h4' variant='section-sub-title'>Metronome Growth Systems (MGS)</Heading>
+        <UnorderedList>
+          <ListItem>Improve and redesign front-end interface in Angular 2, Angular JS, NgRx, RxJs, and React</ListItem>
+          <ListItem>Create mockups and develop new set of design specifications for company brand redesign using Figma</ListItem>
+          <ListItem>Work cohesively with team members to push regular releases and updates with Github and Jira</ListItem>
+        </UnorderedList>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
+        contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
+        date="May 2022 - September 2022"
         iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
         icon={<MdWork />}
       >
@@ -27,22 +62,6 @@ const Timeline = () => {
           <ListItem>Made bug fixes and other back-end improvements</ListItem>
           <ListItem>Made UI improvements and changes</ListItem>
           <ListItem>Performed QA for new PRs and releases</ListItem>
-        </UnorderedList>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        contentStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white') }}
-        contentArrowStyle={{ borderRight: '7px solid', color: useColorModeValue('black', 'white') }}
-        date="Sept 2021 - Present"
-        iconStyle={{ background: useColorModeValue('white', '#2d3748'), color: useColorModeValue('black', 'white'), scale: "75%" }}
-        icon={<MdWork />}
-      >
-        <Heading as='h3' variant='section-title' lineHeight={7}>
-          Bachelor of Computing (Hons.)
-        </Heading>
-        <Heading as='h4' variant='section-sub-title'>Queen's University</Heading>
-        <UnorderedList>
-          <ListItem>Specializing in Software Design</ListItem>
-          <ListItem>Dean's Honours List 2021-2022</ListItem>
         </UnorderedList>
       </VerticalTimelineElement>
       <VerticalTimelineElement
