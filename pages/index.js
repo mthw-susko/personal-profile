@@ -24,7 +24,7 @@ const Page = () => {
 
       <Container maxW='container.xl'>
         <Box borderRadius="lg" bg={useColorModeValue('orange.300', 'blackAlpha.600')} p={3} mb={6} align="center">
-          Hello, my name is Matthew and I am an aspiring full-stack developer based in Canada
+          Hello, my name is Matthew and I am an aspiring UI/UX designer and front-end developer based in Canada
         </Box>
 
         <Box display={{ md: 'flex' }}>
@@ -106,7 +106,7 @@ const Page = () => {
           <Paragraph>
           Matthew is currently studying at Queen's Univeristy for a Bachelor's Degree in Computer Science
             and a specialization in Software Design. At the moment, he is in his third year of studies
-            and living in Kingston, ON. When he graduates he hopes to persue a career in front-end development and UX/UI design. 
+            and living in Kingston, ON. When he graduates he hopes to pursue a career in front-end development and UX/UI design. 
           </Paragraph>
         </Section>
       </Container>
