@@ -1,47 +1,55 @@
 import {
   Container,
   Box,
-  Grid,
-  GridItem,
+  Stack,
+  Text,
+  ButtonGroup,
+  IconButton,
   useColorModeValue,
-  Icon,
-  Link,
-  Button,
-  ButtonGroup
+  Link
 } from '@chakra-ui/react'
 import { AiFillGithub } from 'react-icons/ai'
 import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <Box pb={4} pt={2} bg={useColorModeValue('#f0e7db', '#20202380')}>
+    <Box
+      as="footer"
+      role="contentinfo"
+      py={{ base: '6', md: '8' }}
+      bg={useColorModeValue('orange.100', '#20202380')}
+      color={useColorModeValue('gray.600', 'gray.400')}
+    >
       <Container maxW='container.md'>
-        <Grid templateColumns='repeat(1, 1fr)' gap={3}>
-          <GridItem bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' >
-            <h1> Contacts and Socials </h1>
-          </GridItem >
-          <GridItem col display={"flex"} justifyContent={"center"} alignIems={"center"} rounded="sm" w='100%' h='10' >
-            <ButtonGroup spacing='3' display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10'>
-              <Link href='https://github.com/mthw-susko' isExternal display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10'>
-                <Button leftIcon={<AiFillGithub />} bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10'>
-                  Github
-                </Button>
+        <Stack spacing={{ base: '4', md: '5' }}>
+          <Stack justify="center" direction="row" align="center">
+            <ButtonGroup variant="ghost">
+              <Link href='https://github.com/mthw-susko' isExternal>
+                <IconButton
+                  aria-label='Github'
+                  icon={<AiFillGithub fontSize="1.25rem" />}
+                />
               </Link>
-              <Link href='https://www.instagram.com/matthew_susko/' display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' isExternal>
-                <Button leftIcon={<BsInstagram />} bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10'>
-                  Instagram
-                </Button>
+              <Link href='https://www.linkedin.com/in/matthew-mb-susko/' isExternal>
+                <IconButton
+                  aria-label='LinkedIn'
+                  icon={<BsLinkedin fontSize="1.25rem" />}
+                />
               </Link>
-              <Link href='https://www.linkedin.com/in/matthew-mb-susko/' display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10' isExternal>
-                <Button leftIcon={<BsLinkedin />} bg={useColorModeValue('orange.300', 'blackAlpha.600')} display={"flex"} justifyContent={"center"} alignItems={"center"} rounded="sm" w='100%' h='10'>
-                  Linkedin
-                </Button>
+              <Link href='https://www.instagram.com/matthew_susko/' isExternal>
+                <IconButton
+                  aria-label='Instagram'
+                  icon={<BsInstagram fontSize="1.25rem" />}
+                />
               </Link>
             </ButtonGroup>
-          </GridItem>
-        </Grid>
+          </Stack>
+          <Text fontSize="sm" color="subtle" align="center">
+            &copy; {new Date().getFullYear()} Matthew Susko. All Rights Reserved.
+          </Text>
+        </Stack>
       </Container>
-    </Box >
+    </Box>
   )
 }
 
